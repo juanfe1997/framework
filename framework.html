@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>framework</title>
+	<!-- Activar Responsive Design -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Incluir CSS Proyecto -->
+	<!-- Incluir Bootstrap CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
+	<!-- Incluir Font Awesome CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css" />
+	<!-- Incluir Datatables CSS-->
+	<link rel="stylesheet" type="text/css" href="assets/css/dataTables.bootstrap.min.css">
+	<!-- Incluir Hoja de Estilos Propia -->
+	<link rel="stylesheet" type="text/css" href="assets/css/framework.css">
+</head>
+<body>
+<!--esta clase es el menu de la pagina de color negro -->
+<div class="menu">
+	<nav class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+		<div class="container-fluid">
+			<!-- Marca y toggle se agrupan para una mejor visualización móvil -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">atletico nacional</a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse navbar-ex1-collapse">	
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">inicio</a></li>
+					<li><a href="#">titulos</a></li>
+					<li><a href="#">historia</a></li>
+					<li><a href="#">Registrarse</a></li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</div>
+	</nav>
+</div>
+<!-- esta clase tiene un titulo 1 y un parrafo-->
+<div class="jumbotron">
+  <h1>CAMPEON COPA LIBERTADORES 2016</h1>
+  <p>Atlético Nacional continúa haciendo historia, al clasificar a una nueva final de Copa continental, luego de superar en la semifinal de la Suramericana a Cerro Porteño, de Paraguay. Ahora, buscará celebrar otro título, cuando enfrente la próxima semana al Chapecoense brasileño. La disputa iniciará en Medellín, y finalizará en Coritiba.
+
+Ha sido una temporada soñada para el equipo paisa, que en siete días fue campeón de la Copa Colombia y avanzó a la final de ‘la otra mitad de la gloria’. Asimismo, se encuentra con vida en la Liga II-2016, y se prepara para cumplir con el Mundial de Clubes.</p>
+<!-- este boton es de color verde -->
+  <p><a class="btn btn-success btn-lg" href="#" role="button">ver mas</a></p>
+</div>
+<!-- Slider de Imágenes -->
+<div class="row">
+	<div id="carousel-id" class="carousel slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-target="#carousel-id" data-slide-to="0" class=""></li>
+			<li data-target="#carousel-id" data-slide-to="1" class=""></li>
+			<li data-target="#carousel-id" data-slide-to="2" class="active"></li>
+		</ol>
+		<div class="carousel-inner">
+			<div class="item">
+				<img src="assets/imagenes/nacio.jpg">
+				<div class="container">
+					<div class="carousel-caption">
+						<h1>campeones de america/h1>
+						<p>atletico nacional se corono campeon de america por segunda vez en su historia al derrotar al equipo independiente del valle de ecuador</p>
+						<p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<img src="assets/imagenes/borja.jpg">
+				<div class="container">
+					<div class="carousel-caption">
+						<h1>Another example headline.</h1>
+						<p>atletico nacional se corono campeon de america por segunda vez en su historia al derrotar al equipo independiente del valle de ecuador</p>
+						<p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="item active">
+				<img src="assets/imagenes/nacional.jpg">
+				<div class="container">
+					<div class="carousel-caption">
+						<h1>campeones de america</h1>
+						<p>atletico nacional se corono campeon de america por segunda vez en su historia al derrotar al equipo independiente del valle de ecuador</p>
+						<p><a class="btn btn-lg btn-success" href="#" role="button">ver mas fotos</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<a class="left carousel-control" href="#carousel-id" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+		<a class="right carousel-control" href="#carousel-id" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+	</div>
+</div>
+
+<!-- fin slider de Imágenes -->
+<h2 class="text-center">hombres importantes de nacional 2016</h2>
+<!-- Listado de imagenes de con un titulo y un parrafo -->
+<div class="row">
+	<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+		<div class="thumbnail">
+			<img src="assets/imagenes/campeones.jpg">
+			<div class="caption">
+				<h3>campeones</h3>
+				<p>
+					atletico nacional consiguio su segundo titulo de copa libertadores (1989, 2016)
+				</p>
+				<p>
+				<!-- boton de color verde-->
+					<a href="#" class="btn btn-success">mas ..</a>
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+		<div class="thumbnail">
+			<img src="assets/imagenes/borja.jpg">
+			<div class="caption">
+				<h3>miguel borja</h3>
+				<p>
+					el goleador de atletico nacional en la copa libertadores con 5 tantos
+				</p>
+				<p>
+					<a href="#" class="btn btn-success">mas ...</a>
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+		<div class="thumbnail">
+			<img src="assets/imagenes/nacio.jpg">
+			<div class="caption">
+				<h3>franco armani</h3>
+				<p>
+					el arquero fue figura de atletico nacional en esta copa salvando muchas ocasiones de gol
+				</p>
+				<p>
+					<a href="#" class="btn btn-success">mas ..</a>
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+		<div class="thumbnail">
+			<img src="assets/imagenes/verde.jpg">
+			<div class="caption">
+				<h3>Reinaldo Rueda</h3>
+				<p>
+					el tecnico mas importante de nacional en los ultimos años, lleva cuatro titulos por ahora con nacional
+				</p>
+				<p>
+					<a href="#" class="btn btn-success">Comprar</a>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- el pie de pagina con un titulo de color negro-->
+ <footer>
+      <h1>juan felipe marin arenas - 2016</h1><br>
+ 
+    </footer>
+
+
